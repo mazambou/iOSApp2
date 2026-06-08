@@ -1,0 +1,73 @@
+
+[
+    {
+        "name": "Golden Coffee Cup",
+        "businessName": "Coffee House",
+        "imageName": "goldenCoffeeCupImg",
+        "clue": "Look near the coffee machine",
+        "isFound": false
+    },
+    {
+        "name": "Red Book",
+        "businessName": "City Book Store",
+        "imageName": "redBookImg",
+        "clue": "Hidden between the best-selling books",
+        "isFound": false
+    },
+    {
+        "name": "Movie Ticket",
+        "businessName": "Galaxy Cinema",
+        "imageName": "movieTicketImg",
+        "clue": "Check near the popcorn stand",
+        "isFound": false
+    },
+    {
+        "name": "Silver Spoon",
+        "businessName": "Sunset Restaurant",
+        "imageName": "silverSpoonImg",
+        "clue": "Look near the dessert display",
+        "isFound": false
+    },
+    {
+        "name": "Toy Robot",
+        "businessName": "Happy Toys",
+        "imageName": "toyRobotImg",
+        "clue": "Standing beside the board games",
+        "isFound": false
+    },
+    {
+        "name": "Green Apple",
+        "businessName": "Fresh Market",
+        "imageName": "greenAppleImg",
+        "clue": "Near the fresh fruits section",
+        "isFound": false
+    },
+    {
+        "name": "Soccer Ball",
+        "businessName": "Sports World",
+        "imageName": "soccerBallImg",
+        "clue": "Close to the goal nets",
+        "isFound": false
+    },
+    {
+        "name": "Teddy Bear",
+        "businessName": "Gift Corner",
+        "imageName": "teddyBearImg",
+        "clue": "Sitting on a high shelf",
+        "isFound": false
+    },
+    {
+        "name": "Gold Key",
+        "businessName": "Grand Hotel",
+        "imageName": "goldKeyImg",
+        "clue": "Near the reception desk",
+        "isFound": false
+    },
+    {
+        "name": "Magic Wand",
+        "businessName": "Costume Shop",
+        "imageName": "magicWandImg",
+        "clue": "Hidden near the superhero costumes",
+        "isFound": false
+    }
+]
