@@ -8,27 +8,17 @@
 import Foundation
 
 struct HuntItemData {
-   
     func loadHuntItemData() -> [HuntItem] {
-
-        let url = Bundle.main.url(forResource: "huntItems",
-                                  withExtension: "json")
-
-        if url == nil {
+        guard let url = Bundle.main.url(forResource: "huntItems", withExtension: "json") else {
             return []
-        }else {
-            do {
-                let data = try Data(contentsOf: url!)
-                let decoder = JSONDecoder()
-                let huntItems: [HuntItem] = try decoder.decode([HuntItem].self, from: data)
-                return huntItems
-            } catch {
-                print("Error parsing JSON: \(error)")
-            }
         }
 
-        // Suite plus tard
-
-        return []
+        do {
+            let data = try Data(contentsOf: url)
+            return try JSONDecoder().decode([HuntItem].self, from: data)
+        } catch {
+            print("Error loading hunt items: \(error)")
+            return []
+        }
     }
 }
